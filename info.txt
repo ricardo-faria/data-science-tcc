@@ -1,0 +1,41 @@
+-------------------
+github com varios datasets e documento sobre analise de vibração
+https://github.com/Charlie5DH/PredictiveMaintenance-and-Vibration-Resources
+
+
+------------------------------
+mafaulda com menos dados
+https://www.kaggle.com/datasets/uysalserkan/fault-induction-motor-dataset/data
+
+tese mafaulda
+https://pantheon.ufrj.br/bitstream/11422/11671/1/888705.pdf
+
+https://www.extrica.com/article/23667/pdf
+
+projeto mafaulda
+https://www.kaggle.com/code/rkuo2000/induction-motor-faults-detection
+https://www.kaggle.com/code/galdirreges/mafaulda-vibration-dataset-analysis
+
+tcc mafualda
+https://www.sba.org.br/open_journal_systems/index.php/sbai/article/download/2788/2331/
+
+
+base de dados mafaulda
+https://www02.smt.ufrj.br/~offshore/mfs/page_01.html#SEC2
+
+
+
+
+
+projeto analise mafaulda
+https://github.com/milank94/motor-fault-classification
+https://towardsdatascience.com/industrial-motor-fault-classification-using-deep-learning-with-iot-implications-fd36ddc8ad5b
+
+
+https://jacm.scu.ac.ir/article_16049_983a7efcea486af4010045db59a7a3c6.pdf
+
+
+--------------------------------------------
+
+DOWNSAMPLING
+https://www.mathworks.com/help/signal/examples.html?category=multirate-signal-processing&s_tid=CRUX_topnav
