@@ -39,3 +39,11 @@ https://jacm.scu.ac.ir/article_16049_983a7efcea486af4010045db59a7a3c6.pdf
 
 DOWNSAMPLING
 https://www.mathworks.com/help/signal/examples.html?category=multirate-signal-processing&s_tid=CRUX_topnav
+
+
+
+----------------------------------------------------------------------
+REFERENCIAS
+
+analise de sinais
+https://towardsdatascience.com/hands-on-signal-processing-with-python-9bda8aad39de
