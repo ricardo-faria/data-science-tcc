@@ -47,3 +47,11 @@ REFERENCIAS
 
 analise de sinais
 https://towardsdatascience.com/hands-on-signal-processing-with-python-9bda8aad39de
+
+
+
+----------------------------------------------------------
+
+animação svc
+https://github.com/omerfarukeker/SVM-Decision-Boundary-Animator
+https://rasbt.github.io/mlxtend/user_guide/plotting/plot_decision_regions/
