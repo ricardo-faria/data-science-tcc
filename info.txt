@@ -55,3 +55,50 @@ https://towardsdatascience.com/hands-on-signal-processing-with-python-9bda8aad39
 animação svc
 https://github.com/omerfarukeker/SVM-Decision-Boundary-Animator
 https://rasbt.github.io/mlxtend/user_guide/plotting/plot_decision_regions/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------
+CONFIG SSH COLAB
+
+# Instalar o ngrok
+!pip install -q pyngrok
+
+# Importar a biblioteca ngrok
+from pyngrok import ngrok
+
+!ngrok authtoken 2lXeerzYyFi53rGsFyn22IEWZOL_3RsgVYQurNZiNAAdMjfGD
+# Iniciar o túnel SSH
+ssh_tunnel = ngrok.connect(22, "tcp")
+
+# Exibir o endereço do túnel SSH
+print(ssh_tunnel.public_url)
+
+
+
+
+!mkdir -p ~/.ssh
+!echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDEMzKaNhiiB4YJr01uA33yiqvjMgJEBgSqiTT+4Iotr6D1swlXwdc4gJAjZN5cYqZ/t09v/AG6AbHgODjKpY8n5CkuOZsWaQJxSAWBEzaDZiU9FtD52AoCjhrbgsVjxtNmMu32H2u5A6bu9GLciAsJVjDRHYO5Fsgw5cQ3Q/6LOOUDtCcxohspxMgkaA7RCPtayCZOIOXYret7QbGwKlZyAaQn8rXuvCKvpMc9W6BlS6cM6GEtMHeEtPoZ4IiCDeBQMkHtRc6IIkVWwRGw9SOPGi2pVQHWkxBjoLp9wFY9nwBnCOYqlvKiTuLnfZ1oBhFltoehFBKTabCDlDJpm0/8OQZ8V97tPFzZ19SC6DBA+EyNUBc+tGKOPfRX4RUqjJUUb0mg62054i8FOG305uFbyepE4+/k0jhOVe4j/n9jguBZNKL7K8+ei/IO1Pn9cbImhrWkcJqswxoGGKvFrgjWWI0mKp5uzzGpErLqbGc8Tzp+PtSDio/Rp52yjPr/L+8Xl/bMoRy1KT7f6OFv5OlCiazAqLkDTvqGVg6gV66vkiHPdq+WCygTPSyo23fZHCRsoAPWDkG6KlG3G0TGLC7UkE2vDp5xUGN3VMlrCG4XCyZee6kbkiCt/wM8souc7Epa0iDvHk+sD6jXQVilmtMfLfurm1+2nsz477XC+2ytkQ== ricardo.jonas.faria@gmail.com" >> ~/.ssh/authorized_keys
+!chmod 600 ~/.ssh/authorized_keys
+
+
+
+personal token github
+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
+
+
+git remote set-url origin https://ricardo-faria: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@github.com/ricardo-faria/data-science-tcc.git
